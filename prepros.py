@@ -15,10 +15,10 @@ plt.show()
 
 
 #convert image into gray scale
-gray_img = cv2.cvtColor( orig_img, cv2.COLOR_BGR2GRAY )
-plt.imshow(gray_img,cmap='gray')
-plt.axis('off') #same as plt.xticks([]), plt.yticks([])
-plt.show()
+# gray_img = cv2.cvtColor( orig_img, cv2.COLOR_BGR2GRAY )
+# plt.imshow(gray_img,cmap='gray')
+# plt.axis('off') #same as plt.xticks([]), plt.yticks([])
+# plt.show()
 
 
 gaussian_filtered = cv2.GaussianBlur(gray_img, (5, 5),5)
